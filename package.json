@@ -1,0 +1,32 @@
+{
+  "name": "nearest-feature",
+  "version": "0.0.1",
+  "description": "Find the closest feature to a point",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jczaplew/nearest-feature.git"
+  },
+  "keywords": [
+    "turf",
+    "nearest",
+    "nearest feature",
+    "nearest polygon"
+  ],
+  "author": "jczaplew",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/jczaplew/nearest-feature/issues"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "turf-crosstrack": "git://github.com/jczaplew/turf-crosstrack.git",
+    "turf-distance": "^0.1.5",
+    "turf-point": "^0.1.6"
+  }
+}
